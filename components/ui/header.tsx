@@ -20,6 +20,22 @@ export default function Header() {
           <nav className="hidden md:flex md:grow">
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
+              <li>
+                <Link
+                  href="/privacy-policy"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                    href="/cards"
+                    className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Flash Cards
+                </Link>
+              </li>
             </ul>
           </nav>
 

@@ -31,6 +31,9 @@ export default function Footer() {
                   <li>
                     <a href="/privacy-policy" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-ou">Privacy Policy</a>
                   </li>
+                  <li>
+                    <a href="/cards" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-ou">Flash Card Demo</a>
+                  </li>
                 </ul>
               </div>
             </div>
