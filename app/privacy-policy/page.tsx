@@ -3,15 +3,13 @@ export const metadata = {
     description: 'App\'s Privacy Policy',
 }
 
-import Link from 'next/link'
-
 export default function PrivacyPolicy() {
     return (
         <section className="relative">
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
                 <div className="pt-32 pb-12 md:pt-40 md:pb-20 text-white">
                     <div className="mx-auto lg:mx-0">
-                        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-3">Privacy Policy</h2>
+                        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl my-5">Privacy Policy</h2>
 
                         <p className="mt-2 text-lg ">This Privacy Policy describes Our policies and procedures on the collection, use
                             and disclosure of Your information when You use the Service and tells You about
@@ -22,14 +20,14 @@ export default function PrivacyPolicy() {
                             this Privacy Policy. This Privacy Policy has been created with the help of the
                             Privacy Policy Generator.</p>
 
-                        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-3">Interpretation and Definitions</h2>
+                        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl my-5">Interpretation and Definitions</h2>
                         <h2 id="interpretation" className="font-bold tracking-tight sm:text-2xl mt-3">Interpretation</h2>
                         <p className="mt-2 text-lg">The words of which the initial letter is capitalized have meanings defined under
                             the following conditions. The following definitions shall have the same meaning
                             regardless of whether they appear in singular or in plural.</p>
                         <h2 id="interpretation" className="font-bold tracking-tight sm:text-2xl mt-3">Definition</h2>
                         <p className="mt-2 text-lg">For the purposes of this Privacy Policy:</p>
-                        <ul className="text-lg">
+                        <ul className="text-lg list-disc ml-5 my-5 pl-3">
                             <li><strong>Account</strong> means a unique account created for You to access our Service or
                                 parts of our Service.</li>
                             <li><strong>Affiliate</strong> means an entity that controls, is controlled by or is under
@@ -58,17 +56,16 @@ export default function PrivacyPolicy() {
                                 or other legal entity on behalf of which such individual is accessing or using
                                 the Service, as applicable.</li>
                         </ul>
-                        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-3">Collecting and Using Your Personal Data</h2>
+                        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl my-5">Collecting and Using Your Personal Data</h2>
                         <h2 id="interpretation" className="font-bold tracking-tight sm:text-2xl mt-3">Types of Data Collected</h2>
                         <h2 id="personal-data" className="font-bold tracking-tight sm:text-xl mt-3">Personal Data</h2>
                         <p className="mt-2 text-lg">While using Our Service, We may ask You to provide Us with certain personally
                             identifiable information that can be used to contact or identify You. Personally
                             identifiable information may include, but is not limited to:</p>
-                        <ul>
+                        <ul className="text-lg list-disc ml-5 my-5 pl-3 mb-6">
                             <li>Usage Data</li>
                         </ul>
 
-                        <h3 id="usage-data"><a className="animated-underline custom-link inline-flex items-center font-semibold transition-all focus:outline-none focus-visible:rounded focus-visible:ring focus-visible:ring-primary-500 border-b border-dotted border-dark hover:border-black/0 hash-anchor" href="/privacy-policy#usage-data"><span className="icon icon-link"></span></a>Usage Data</h3>
                         <h2 id="usage-data" className="font-bold tracking-tight sm:text-xl mt-3">Usage Data</h2>
                         <p className="mt-2 text-lg">Usage Data is collected automatically when using the Service.</p>
                         <p className="mt-2 text-lg">Usage Data may include information such as Your Device's Internet Protocol
@@ -84,11 +81,11 @@ export default function PrivacyPolicy() {
                             Service or when You access the Service by or through a mobile device.</p>
 
 
-                        <h2 id="usage-data" className="font-bold tracking-tight sm:text-xl mt-3">Information Collected while Using the Application</h2>
+                        <h2 id="usage-data" className="font-bold tracking-tight sm:text-xl mt-6">Information Collected while Using the Application</h2>
 
                         <p className="mt-2 text-lg">While using Our Application, in order to provide features of Our Application, We
                             may collect, with Your prior permission:</p>
-                        <ul>
+                        <ul className="text-lg list-disc ml-5 my-5 pl-3">
                             <li>Pictures and other information from your Device's camera and photo library</li>
                         </ul>
                         <p className="mt-2 text-lg">We use this information to provide features of Our Service, to improve and
@@ -96,55 +93,58 @@ export default function PrivacyPolicy() {
                             and/or a Service Provider's server or it may be simply stored on Your device.</p>
                         <p className="mt-2 text-lg">You can enable or disable access to this information at any time, through Your
                             Device settings.</p>
-                        <h2 id="use-of-your-personal-data"><a className="animated-underline custom-link inline-flex items-center font-semibold transition-all focus:outline-none focus-visible:rounded focus-visible:ring focus-visible:ring-primary-500 border-b border-dotted border-dark hover:border-black/0 hash-anchor" href="/privacy-policy#use-of-your-personal-data"><span className="icon icon-link"></span></a>Use of Your Personal Data</h2>
+
+                        <h2 id="use-of-your-personal-data" className="font-bold tracking-tight sm:text-2xl mt-6">Use of Your Personal Data</h2>
                         <p className="mt-2 text-lg">The Company may use Personal Data for the following purposes:</p>
-                        <ul>
-                            <li>
-                                <p className="mt-2 text-lg"><strong>To provide and maintain our Service</strong>, including to monitor the usage of our
-                                    Service.</p>
-                            </li>
-                            <li>
-                                <p className="mt-2 text-lg"><strong>To manage Your Account</strong>: to manage Your registration as a user of the
+                        <div>
+                            <ul className="text-lg list-disc ml-5 my-5 pl-3">
+                                <li>
+                                    <strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.
+                                </li>
+                                <li>
+                                    <strong>To manage Your Account</strong>: to manage Your registration as a user of the
                                     Service. The Personal Data You provide can give You access to different
-                                    functionalities of the Service that are available to You as a registered user.</p>
-                            </li>
-                            <li>
-                                <p className="mt-2 text-lg"><strong>For the performance of a contract</strong>: the development, compliance and
-                                    undertaking of the purchase contract for the products, items or services You
-                                    have purchased or of any other contract with Us through the Service.</p>
-                            </li>
-                            <li>
-                                <p className="mt-2 text-lg"><strong>To contact You</strong>: To contact You by email, telephone calls, SMS, or other
-                                    equivalent forms of electronic communication, such as a mobile application's
-                                    push notifications regarding updates or informative communications related to
-                                    the functionalities, products or contracted services, including the security
-                                    updates, when necessary or reasonable for their implementation.</p>
-                            </li>
-                            <li>
-                                <p className="mt-2 text-lg"><strong>To provide You</strong> with news, special offers and general information about
-                                    other goods, services and events which we offer that are similar to those that
-                                    you have already purchased or enquired about unless You have opted not to
-                                    receive such information.</p>
-                            </li>
-                            <li>
-                                <p className="mt-2 text-lg"><strong>To manage Your requests</strong>: To attend and manage Your requests to Us.</p>
-                            </li>
-                            <li>
-                                <p className="mt-2 text-lg"><strong>For business transfers</strong>: We may use Your information to evaluate or conduct
-                                    a merger, divestiture, restructuring, reorganization, dissolution, or other
-                                    sale or transfer of some or all of Our assets, whether as a going concern or
-                                    as part of bankruptcy, liquidation, or similar proceeding, in which Personal
-                                    Data held by Us about our Service users is among the assets transferred.</p>
-                            </li>
-                            <li>
-                                <p className="mt-2 text-lg"><strong>For other purposes</strong>: We may use Your information for other purposes, such
-                                    as data analysis, identifying usage trends, determining the effectiveness of
-                                    our promotional campaigns and to evaluate and improve our Service, products,
-                                    services, marketing and your experience.</p>
-                            </li>
-                        </ul>
+                                    functionalities of the Service that are available to You as a registered user.
+                                </li>
+                                <li>
+                                    <strong>For the performance of a contract</strong>: the development, compliance and
+                                        undertaking of the purchase contract for the products, items or services You
+                                        have purchased or of any other contract with Us through the Service.
+                                </li>
+                                <li>
+                                    <strong>To contact You</strong>: To contact You by email, telephone calls, SMS, or other
+                                        equivalent forms of electronic communication, such as a mobile application's
+                                        push notifications regarding updates or informative communications related to
+                                        the functionalities, products or contracted services, including the security
+                                        updates, when necessary or reasonable for their implementation.
+                                </li>
+                                <li>
+                                    <strong>To provide You</strong> with news, special offers and general information about
+                                        other goods, services and events which we offer that are similar to those that
+                                        you have already purchased or enquired about unless You have opted not to
+                                        receive such information.
+                                </li>
+                                <li>
+                                    <strong>To manage Your requests</strong>: To attend and manage Your requests to Us.
+                                </li>
+                                <li>
+                                    <strong>For business transfers</strong>: We may use Your information to evaluate or conduct
+                                        a merger, divestiture, restructuring, reorganization, dissolution, or other
+                                        sale or transfer of some or all of Our assets, whether as a going concern or
+                                        as part of bankruptcy, liquidation, or similar proceeding, in which Personal
+                                        Data held by Us about our Service users is among the assets transferred.
+                                </li>
+                                <li>
+                                    <strong>For other purposes</strong>: We may use Your information for other purposes, such
+                                        as data analysis, identifying usage trends, determining the effectiveness of
+                                        our promotional campaigns and to evaluate and improve our Service, products,
+                                        services, marketing and your experience.
+                                </li>
+                            </ul>
+                        </div>
+
                         <p className="mt-2 text-lg">We may share Your personal information in the following situations:</p>
-                        <ul>
+                        <ul className="text-lg list-disc ml-5 my-5 pl-3">
                             <li><strong>With Service Providers</strong>: We may share Your personal information with
                                 Service Providers to monitor and analyze the use of our Service, to contact
                                 You.</li>
@@ -166,7 +166,7 @@ export default function PrivacyPolicy() {
                                 purpose with Your consent.</li>
                         </ul>
 
-                        <h2 id="usage-data" className="font-bold tracking-tight sm:text-xl mt-6">Retention of Your Personal Data</h2>
+                        <h2 id="usage-data" className="font-bold tracking-tight sm:text-2xl mt-6">Retention of Your Personal Data</h2>
                         <p className="mt-2 text-lg">The Company will retain Your Personal Data only for as long as is necessary for
                             the purposes set out in this Privacy Policy. We will retain and use Your
                             Personal Data to the extent necessary to comply with our legal obligations (for
@@ -179,7 +179,6 @@ export default function PrivacyPolicy() {
                             periods.</p>
 
 
-                        <h2 id="transfer-of-your-personal-data"><a className="animated-underline custom-link inline-flex items-center font-semibold transition-all focus:outline-none focus-visible:rounded focus-visible:ring focus-visible:ring-primary-500 border-b border-dotted border-dark hover:border-black/0 hash-anchor" href="/privacy-policy#transfer-of-your-personal-data"><span className="icon icon-link"></span></a>Transfer of Your Personal Data</h2>
                         <h2 id="transfer-of-your-personal-data" className="font-bold tracking-tight sm:text-2xl mt-6">Transfer of Your Personal Data</h2>
                         <p className="mt-2 text-lg">Your information, including Personal Data, is processed at the Company's
                             operating offices and in any other places where the parties involved in the
@@ -225,7 +224,7 @@ export default function PrivacyPolicy() {
 
                         <p className="mt-2 text-lg">The Company may disclose Your Personal Data in the good faith belief that such
                             action is necessary to:</p>
-                        <ul>
+                        <ul className="text-lg list-disc ml-5 my-5 pl-3">
                             <li>Comply with a legal obligation</li>
                             <li>Protect and defend the rights or property of the Company</li>
                             <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
@@ -254,7 +253,7 @@ export default function PrivacyPolicy() {
                         <p className="mt-2 text-lg">We have no control over and assume no responsibility for the content, privacy
                             policies or practices of any third party sites or services.</p>
 
-                        <h2 id="changes-to-this-privacy-policy" className="font-bold tracking-tight sm:text-3xl mt-6">Contact Us</h2>
+                        <h2 id="changes-to-this-privacy-policy" className="font-bold tracking-tight sm:text-3xl mt-6">Changes to this Privacy Policy</h2>
                         <p className="mt-2 text-lg">We may update Our Privacy Policy from time to time. We will notify You of any
                             changes by posting the new Privacy Policy on this page.</p>
                         <p className="mt-2 text-lg">We will let You know via email and/or a prominent notice on Our Service, prior
