@@ -26,13 +26,46 @@ export default function Footer() {
             {/* 2nd, 3rd and 4th blocks */}
               <div className="md:col-span-8 lg:col-span-7 self-center text-sm grid sm:grid-cols-3 gap-8">
 
-              <div>
+              <div className="text-sm">
+                <h6 className="text-gray-200 font-medium mb-4">Products</h6>
+                <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                  <li>
+                    <a href="/cards" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-ou">Flash Cards Demo</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="text-sm">
+                <h6 className="text-gray-200 font-medium mb-4">Policies</h6>
                 <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                   <li>
                     <a href="/privacy-policy" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-ou">Privacy Policy</a>
                   </li>
+                </ul>
+              </div>
+
+              <div className="text-sm">
+                <h6 className="text-gray-200 font-medium mb-4">Stay Connected</h6>
+                <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                   <li>
-                    <a href="/cards" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-ou">Flash Cards Demo</a>
+                    <Link href="mailto:me@aaronct.dev" className="flex flex-wrap gap-2 pb-3">
+                      <div className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out" aria-label="Github">
+                          <svg className="w-8 h-8 fill-current pl-2"  viewBox="0 0 12 6" xmlns="http://www.w3.org/2000/svg">
+                            <path xmlns="http://www.w3.org/2000/svg" className="st0" d="m0 0h8v6h-8zm.75 .75v4.5h6.5v-4.5zM0 0l4 3 4-3v1l-4 3-4-3z"/>
+                          </svg>
+                      </div>
+                      <p className="animated-underline custom-link inline-flex items-center font-semibold transition-all focus:outline-none focus-visible:rounded focus-visible:ring focus-visible:ring-primary-500 border-b border-dotted border-dark hover:border-black/0">me@aaronct.dev</p>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#" className="flex flex-wrap gap-2 pb-3">
+                      <div className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out" aria-label="Github">
+                        <svg className="w-8 h-8 fill-current pl-1.5" viewBox="0 0 60 50" xmlns="http://www.w3.org/2000/svg">
+                          <path xmlns="http://www.w3.org/2000/svg" className="st0" d="M24 4c-7.73 0-14 6.27-14 14 0 10.5 14 26 14 26s14-15.5 14-26c0-7.73-6.27-14-14-14zm0 19c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/>
+                        </svg>
+                      </div>
+                      <p className="animated-underline custom-link inline-flex items-center font-semibold transition-all focus:outline-none focus-visible:rounded focus-visible:ring focus-visible:ring-primary-500 border-b border-dotted border-dark hover:border-black/0">Surabaya, Indonesia</p>
+                    </Link>
                   </li>
                 </ul>
               </div>
