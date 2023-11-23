@@ -31,7 +31,7 @@ export default function Cards(cardData: string[]) {
                 <div className="pt-32 pb-5 md:pt-38 text-white">
                     <div className="mx-auto lg:mx-0">
                         <h2 className="text-3xl font-bold tracking-tight sm:text-2xl">
-                            Scan the card for each prompt, based in the order below:
+                            Click and scan the card for each prompt, based in the order below:
                         </h2>
                     </div>
                 </div>
