@@ -264,7 +264,7 @@ export default function PrivacyPolicy() {
 
                         <h2 id="contact-us" className="font-bold tracking-tight sm:text-3xl mt-6">Contact Us</h2>
                         <p className="mt-2 text-lg">If you have any questions about this Privacy Policy, You can contact us:</p>
-                        <p className="mt-2 text-lg">By email: <a target="_blank" rel="noopener noreferrer" href="mailto:me@aaronct.dev" className="animated-underline custom-link inline-flex items-center font-semibold transition-all focus:outline-none focus-visible:rounded focus-visible:ring focus-visible:ring-primary-500 border-b border-dotted border-dark hover:border-black/0">me@aaronct.dev</a></p>
+                        <p className="mt-2 text-lg">By email: <a target="_blank" rel="noopener noreferrer" href="mailto:mocobarengyuk@gmail.com" className="animated-underline custom-link inline-flex items-center font-semibold transition-all focus:outline-none focus-visible:rounded focus-visible:ring focus-visible:ring-primary-500 border-b border-dotted border-dark hover:border-black/0">me@aaronct.dev</a></p>
                     </div>
                 </div>
             </div>
