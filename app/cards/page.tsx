@@ -2,7 +2,7 @@ import Card from "@/components/card";
 
 export const metadata = {
     title: 'Cards - MOCO',
-    description: 'Our Flash Cards Learning Media',
+    description: 'Our Story Cards Learning Media',
 }
 
 const cardsData: string[] = [

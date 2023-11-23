@@ -17,16 +17,15 @@ export default function Footer() {
                   <MocoIcon />
                 </Link>
               </div>
-              <div className="text-gray-400">
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and
-                visual mockups.
+              <div className="text-white">
+                Sulit untuk mengajak anak berlatih pemahaman membaca? Tingkatkan keterampilan pemahaman teks anak dengan cara yang lebih menarik. Jelajahi cerita dengan aktivitas seru!
               </div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
-            <div className="md:col-span-8 lg:col-span-7 self-center text-sm grid sm:grid-cols-3 gap-8">
-              <div className="text-sm">
+            <div className="flex col-span-7 gap-8 self-center items-start text-sm">
+
+              <div className="text-sm columns-3xs">
                 <h6 className="text-gray-200 font-medium mb-4">Products</h6>
                 <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                   <li>
@@ -34,13 +33,13 @@ export default function Footer() {
                       href="/cards"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-ou"
                     >
-                      Flash Cards Demo
+                      Story Cards Demo
                     </a>
                   </li>
                 </ul>
               </div>
 
-              <div className="text-sm">
+              <div className="text-sm columns-3xs">
                 <h6 className="text-gray-200 font-medium mb-4">Policies</h6>
                 <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
                   <li>
@@ -54,18 +53,18 @@ export default function Footer() {
                 </ul>
               </div>
 
-              <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-4">
+              <div className="text-sm columns-sm items-start">
+                <h6 className="text-white font-medium mb-4">
                   Stay Connected
                 </h6>
-                <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                <ul className="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0">
                   <li>
                     <Link
-                      href="mailto:me@aaronct.dev"
+                      href="mailto:mocobarengyuk@gmail.com"
                       className="flex flex-wrap gap-2 pb-3"
                     >
                       <div
-                        className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out"
+                        className="flex justify-center items-center text-purple-600 bg-white rounded-full transition duration-150 ease-in-out"
                         aria-label="Github"
                       >
                         <svg
@@ -80,15 +79,15 @@ export default function Footer() {
                           />
                         </svg>
                       </div>
-                      <p className="animated-underline custom-link inline-flex items-center font-semibold transition-all focus:outline-none focus-visible:rounded focus-visible:ring focus-visible:ring-primary-500 border-b border-dotted border-dark hover:border-black/0">
-                        me@aaronct.dev
+                      <p className="animated-underline custom-link inline-flex items-center transition-all focus:outline-none focus-visible:rounded focus-visible:ring focus-visible:ring-primary-500 border-b border-dotted border-dark hover:border-black/0">
+                        mocobarengyuk@gmail.com
                       </p>
                     </Link>
                   </li>
                   <li>
                     <Link href="#" className="flex flex-wrap gap-2 pb-3">
                       <div
-                        className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out"
+                        className="flex justify-center items-center text-purple-600 bg-white rounded-full transition duration-150 ease-in-out"
                         aria-label="Github"
                       >
                         <svg
@@ -120,7 +119,7 @@ export default function Footer() {
               <li className="ml-4">
                 <Link
                   href="https://github.com/Macro-Challenge-2023/Moco"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-purple-600 bg-white hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Github"
                 >
                   <svg
@@ -135,7 +134,7 @@ export default function Footer() {
               <li className="ml-4">
                 <Link
                   href="/"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-purple-600 bg-white hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Instagram"
                 >
                   <svg
