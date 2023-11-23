@@ -18,13 +18,14 @@ export default function Footer() {
                 </Link>
               </div>
               <div className="text-white">
-                Sulit untuk mengajak anak berlatih pemahaman membaca? Tingkatkan keterampilan pemahaman teks anak dengan cara yang lebih menarik. Jelajahi cerita dengan aktivitas seru!
+                Sulit untuk mengajak anak berlatih pemahaman membaca? Tingkatkan
+                keterampilan pemahaman teks anak dengan cara yang lebih menarik.
+                Jelajahi cerita dengan aktivitas seru!
               </div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
             <div className="flex col-span-7 gap-8 self-center items-start text-sm">
-
               <div className="text-sm columns-3xs">
                 <h6 className="text-gray-200 font-medium mb-4">Products</h6>
                 <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
@@ -54,9 +55,7 @@ export default function Footer() {
               </div>
 
               <div className="text-sm columns-sm items-start">
-                <h6 className="text-white font-medium mb-4">
-                  Stay Connected
-                </h6>
+                <h6 className="text-white font-medium mb-4">Stay Connected</h6>
                 <ul className="flex flex-wrap items-center mt-3 text-sm font-medium sm:mt-0">
                   <li>
                     <Link
@@ -118,9 +117,9 @@ export default function Footer() {
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li className="ml-4">
                 <Link
-                  href="https://github.com/Macro-Challenge-2023/Moco"
+                  href="https://github.com/moco-team/Moco"
                   className="flex justify-center items-center text-purple-600 bg-white hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
-                  aria-label="Github"
+                  aria-label="GitHub"
                 >
                   <svg
                     className="w-8 h-8 fill-current"
