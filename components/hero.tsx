@@ -1,5 +1,5 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg'
-import ModalVideo from '@/components/modal-video'
+import VideoThumb from '@/public/images/hero-image-01.jpg';
+import ModalVideo from '@/components/modal-video';
 
 export default function Hero() {
   return (
@@ -61,10 +61,20 @@ export default function Hero() {
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
-                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
-                  href="https://testflight.apple.com/join/vWtHXiln"
+                  href="https://apps.apple.com/id/app/moco-enchanted-story-world/id6471516950?itsct=apps_box_badge&itscg=30200"
+                  style={{
+                    display: 'inline-block',
+                    overflow: 'hidden',
+                    borderRadius: 13,
+                    width: 250,
+                    height: 83,
+                  }}
                 >
-                  Test Flight
+                  <img
+                    src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1700784000"
+                    alt="Download on the App Store"
+                    style={{ borderRadius: 13, width: 250, height: 83 }}
+                  />
                 </a>
               </div>
             </div>

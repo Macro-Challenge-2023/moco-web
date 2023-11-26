@@ -120,6 +120,7 @@ export default function Footer() {
                   href="https://github.com/moco-team/Moco"
                   className="flex justify-center items-center text-purple-600 bg-white hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="GitHub"
+                  target="_blank"
                 >
                   <svg
                     className="w-8 h-8 fill-current"
@@ -132,9 +133,10 @@ export default function Footer() {
               </li>
               <li className="ml-4">
                 <Link
-                  href="/"
+                  href="https://instagram.com/moco.kids"
                   className="flex justify-center items-center text-purple-600 bg-white hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Instagram"
+                  target="_blank"
                 >
                   <svg
                     className="w-8 h-8 fill-current"
