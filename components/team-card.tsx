@@ -20,7 +20,7 @@ export default function TeamCard({ name, image, role, link }: TeamCardProps) {
         <div className="testimonial-item-footer text-lg font-bold mt-12 mb-0 has-top-divider">
           <span className="testimonial-item-name text-color-high">{name}</span>
           <span className="text-color-low"> / </span>
-          <span className="text-blue-300">
+          <span className="text-blue-300 hover:text-blue-200 transition-all">
             <a target="_blank" href={link}>
               {role}
             </a>
