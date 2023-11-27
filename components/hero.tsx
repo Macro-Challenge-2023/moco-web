@@ -1,7 +1,8 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg';
-import ModalVideo from '@/components/modal-video';
+'use client'
+
 import Link from 'next/link';
 import clsxm from '@/lib/clsxm';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 import { TbCardsFilled } from 'react-icons/tb';
 
 export default function Hero() {
@@ -103,14 +104,9 @@ export default function Hero() {
             </div>
           </div>
 
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1024}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080}
+          <LiteYouTubeEmbed
+            id="FhEoSvs5ulc"
+            title="Moco Development Journey"
           />
         </div>
       </div>

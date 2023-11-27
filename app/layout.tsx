@@ -1,4 +1,5 @@
 import './css/style.css'
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 import { Inter, Architects_Daughter } from 'next/font/google'
 
