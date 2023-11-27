@@ -1,5 +1,8 @@
 import VideoThumb from '@/public/images/hero-image-01.jpg';
 import ModalVideo from '@/components/modal-video';
+import Link from 'next/link';
+import clsxm from '@/lib/clsxm';
+import { TbCardsFilled } from 'react-icons/tb';
 
 export default function Hero() {
   return (
@@ -58,17 +61,17 @@ export default function Hero() {
               keterampilan pemahaman teks anak dengan cara yang lebih menarik.
               Jelajahi cerita dengan aktivitas seru!
             </p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-x-6 gap-y-6 w-full">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   href="https://apps.apple.com/id/app/moco-enchanted-story-world/id6471516950?itsct=apps_box_badge&itscg=30200"
                   style={{
-                    display: 'inline-block',
                     overflow: 'hidden',
                     borderRadius: 13,
                     width: 250,
                     height: 83,
                   }}
+                  className="block"
                 >
                   <img
                     src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1700784000"
@@ -76,6 +79,26 @@ export default function Hero() {
                     style={{ borderRadius: 13, width: 250, height: 83 }}
                   />
                 </a>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="400">
+                <Link
+                  href="/cards"
+                  style={{
+                    overflow: 'hidden',
+                    borderRadius: 13,
+                    width: 250,
+                    height: 83,
+                  }}
+                  className={clsxm(
+                    'bg-black overflow-hidden flex items-center justify-center text-center px-2',
+                    'text-white font-bold text-2xl tracking-wide leading-tight',
+                    'border-2 border-neutral-400',
+                    'transition-all duration-200',
+                  )}
+                >
+                  <TbCardsFilled className="text-5xl" />
+                  <span>Story Cards Demo</span>
+                </Link>
               </div>
             </div>
           </div>
