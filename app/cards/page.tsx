@@ -22,9 +22,7 @@ const cardsData: string[] = [
     'card-madu.png',
 ];
 
-export default function Cards(cardData: string[]) {
-    cardData = cardsData
-
+export default function Cards() {
     return (
         <section className="relative">
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -37,7 +35,7 @@ export default function Cards(cardData: string[]) {
                 </div>
 
                 <div className="md:pb-20 text-white flex flex-wrap -mx-2">
-                    {cardData.map((src, index) => (
+                    {cardsData.map((src, index) => (
                         <Card key={index} imageKey={index + 1} imageSrc={src} imageAlt={`Card ${index + 1}`} />
                     ))}
                 </div>
