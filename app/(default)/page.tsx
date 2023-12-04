@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Home - Moco Kids',
-  description: 'Page description',
+  description: 'Turning Pages Into Games',
 }
 
 import Hero from '@/components/hero'
