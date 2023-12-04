@@ -65,7 +65,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row justify-center items-center gap-x-6 gap-y-6 w-full">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
-                  href="https://apps.apple.com/id/app/moco-enchanted-story-world/id6471516950?itsct=apps_box_badge&itscg=30200"
+                  href="https://apps.apple.com/id/app/moco-kids/id6471516950?itsct=apps_box_badge&itscg=30200"
                   style={{
                     overflow: 'hidden',
                     borderRadius: 13,
@@ -104,10 +104,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <LiteYouTubeEmbed
-            id="FhEoSvs5ulc"
-            title="Moco Development Journey"
-          />
+          <LiteYouTubeEmbed id="FhEoSvs5ulc" title="Moco Development Journey" />
         </div>
       </div>
     </section>
