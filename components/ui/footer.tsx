@@ -1,26 +1,51 @@
 import React from 'react';
 import Link from 'next/link';
-import MocoIcon from '../moco-icon';
+import MocoIcon, { MocoIcon2 } from '../moco-icon';
+import mocoHead from '@/public/images/moco.svg';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="bg-gradient-to-b from-[#F3E1BD] to-[#165391] to-15%">
       <div className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           {/* Top area: Blocks */}
           <div className="flex flex-col md:grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
             {/* 1st block */}
-            <div className="md:col-span-4 lg:col-span-5">
-              <div className="mb-2">
-                {/* Logo */}
-                <Link href="/" className="inline-block" aria-label="Cruip">
-                  <MocoIcon />
-                </Link>
+            <div className="flex md:col-span-4 lg:col-span-5 items-center">
+              <div>
+                <Image
+                  width={150}
+                  height={150}
+                  priority
+                  src={mocoHead}
+                  alt="Follow us on Twitter"
+                />
               </div>
-              <div className="text-white">
-                Sulit untuk mengajak anak berlatih pemahaman membaca? Tingkatkan
-                keterampilan pemahaman teks anak dengan cara yang lebih menarik.
-                Jelajahi cerita dengan aktivitas seru!
+              <div className="">
+                <div className="mb-2">
+                  {/* Logo */}
+                  <Link href="/" className="inline-block" aria-label="Cruip">
+                    <MocoIcon2 />
+                  </Link>
+                </div>
+                <div className="text-white mb-2">Turning pages into games.</div>
+                <a
+                  href="https://apps.apple.com/id/app/moco-kids/id6471516950?itsct=apps_box_badge&itscg=30200"
+                  style={{
+                    overflow: 'hidden',
+                    borderRadius: 5,
+                    width: 125,
+                    height: 41,
+                  }}
+                  className="block"
+                >
+                  <img
+                    src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1700784000"
+                    alt="Download on the App Store"
+                    style={{ borderRadius: 5, width: 125, height: 41 }}
+                  />
+                </a>
               </div>
             </div>
 

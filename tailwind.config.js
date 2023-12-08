@@ -7,7 +7,23 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+        'bounce-2': {
+          '0%, 100%': { transform: 'translateY(-5%)' },
+          '50%': { transform: 'translateY(0)' },
+        },
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+        'bounce-2': 'bounce-2 1s infinite',
+      },
       colors: {
+        primary: '#004B8F',
+        secondary: '#D19C9C',
         gray: {
           100: '#EBF1F5',
           200: '#D9E3EA',
@@ -38,7 +54,10 @@ module.exports = {
       },
       fontFamily: {
         inter: ['var(--font-inter)', 'sans-serif'],
-        'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif']
+        'architects-daughter': [
+          'var(--font-architects-daughter)',
+          'sans-serif',
+        ],
       },
       fontSize: {
         xs: '0.75rem',
@@ -53,7 +72,7 @@ module.exports = {
         '6xl': '4rem',
       },
       inset: {
-        'full': '100%',
+        full: '100%',
       },
       letterSpacing: {
         tighter: '-0.02em',
@@ -64,14 +83,12 @@ module.exports = {
         widest: '0.4em',
       },
       minWidth: {
-        '10': '2.5rem',
+        10: '2.5rem',
       },
       scale: {
-        '98': '.98'
+        98: '.98',
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
-}
+  plugins: [require('@tailwindcss/forms')],
+};

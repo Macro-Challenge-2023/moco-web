@@ -18,11 +18,11 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             {/* Desktop sign in links */}
-            <ul className="flex grow justify-end flex-wrap items-center">
+            <ul className="flex grow justify-end flex-wrap items-center gap-x-4">
               <li>
                 <Link
                   href="/privacy-policy"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out bg-white rounded-xl"
                 >
                   Privacy Policy
                 </Link>
@@ -30,7 +30,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/cards"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out bg-white rounded-xl"
                 >
                   Story Cards Demo
                 </Link>
