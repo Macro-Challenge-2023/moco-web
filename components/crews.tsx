@@ -34,8 +34,8 @@ const crews: TeamCardProps[] = [
   {
     name: 'Natasya Febriani',
     image: Team6Image,
-    role: 'UI/UX',
-    link: 'https://www.linkedin.com/in/vania-sugiarto-9304a424a',
+    role: 'Coder / UI/UX',
+    link: 'https://www.linkedin.com/in/nattfeb/',
   },
   {
     name: 'Aaron Christopher',
